@@ -1,0 +1,10 @@
+div {
+  display: flex;
+  background-color: green;
+  border: solid;
+  justify-content: center;
+}
+
+.header {
+  justify-content: flex-end;
+}/*# sourceMappingURL=styles.css.map */
