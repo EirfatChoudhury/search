@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Images</title>
+        <title>Advanced</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="header">
+            <img src="google-logo.png">
             <a href="index.html">Home</a>
         </div>
-        <div>
+        <div class="adv-title">
+            <h1>Advanced Search</h1>
+        </div>
+        <hr>
+        <div id="adv-form">
             <form action="https://google.com/search">
-                <div>
-                    <input type="text" name="q">
+                <div class="adv-headers">
+                    <h5>Find pages with...</h5>
                 </div>
-                <div>
-                    <input type="submit" value="Google Search">
+                <div class="adv-search-row">
+                    <p>all these words:</p>
+                    <input class="adv-search-bar" type="text" name="as_q" autocomplete="off">
+                </div>
+                <div class="adv-search-row">
+                    <p>this exact word or phrase:</p>
+                    <input class="adv-search-bar" type="text" name="as_epq" autocomplete="off">
+                </div>
+                <div class="adv-search-row">
+                    <p>any of these words:</p>
+                    <input class="adv-search-bar" type="text" name="as_oq" autocomplete="off">
+                </div>
+                <div class="adv-search-row">
+                    <p>none of these words:</p>
+                    <input class="adv-search-bar" type="text" name="as_q" autocomplete="off">
+                </div>
+                <div class="adv-search-button">
+                    <input type="submit" value="Advanced Search">
                 </div>
             </form>
         </div>

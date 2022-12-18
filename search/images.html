@@ -2,16 +2,21 @@
 <html lang="en">
     <head>
         <title>Images</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="header">
-            <a href="index.html">home</a>
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <img id="logo" src="google-logo.png">
         </div>
         <div>
             <form action="https://google.com/search">
                 <div>
-                    <input type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch" autocomplete="off">
+                    <input id="search-bar" type="text" name="q">
                 </div>
                 <div>
                     <input type="submit" value="Google Search">

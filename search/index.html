@@ -2,11 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="header">
+            <a href="images.html">Images</a>
+            <a href="advanced.html">Advanced</a>
+        </div>
+        <div>
+            <img id="logo" src="google-logo.png">
+        </div>
+        <div>
+            <form action="https://google.com/search">
+                <div>
+                    <input id="search-bar" type="text" name="q" autocomplete="off">
+                </div>
+                <div>
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm feeling lucky!">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
